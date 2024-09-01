@@ -12,9 +12,9 @@ body{
     margin: 50px 50px;
 }
 
-.title img{
+/* .title img{
     padding: 20px 20px ;
     height: 80px;
-}
+} */
 
 @tailwind utilities;
