@@ -8,4 +8,13 @@ body{
     background: #0f1B21;
 
 }
+.boxes img{
+    margin: 50px 50px;
+}
+
+.title img{
+    padding: 20px 20px ;
+    height: 80px;
+}
+
 @tailwind utilities;
