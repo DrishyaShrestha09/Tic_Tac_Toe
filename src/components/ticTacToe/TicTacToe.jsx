@@ -42,7 +42,7 @@ const TicTacToe = () => {
         setLock(false);
         setData(["", "", "", "", "", "", "", "", ""]);
         setCount(0);
-        setTitleText('Tic Tac Toe In <span class="text-[#26ffcb] pl-4 font-semibold">React</span>');
+        setTitleText('Tic Tac Toe In <span class="text-[#26ffcb] pl-4  font-semibold">React</span>');
 
         box_array.forEach(box => {
             if (box.current) {
@@ -83,13 +83,13 @@ const TicTacToe = () => {
     const won = (winner) => {
         setLock(true);
         setTitleText(`Congratulations: ${winner} wins`);
-        setTimeout(() => reset(), 2000);  // Reset the board after 2 seconds
+        setTimeout(() => reset(), 1000);  // Reset the board after 1 seconds
     };
 
     const draw = () => {
         setLock(true);
         setTitleText("It's a draw!");
-        setTimeout(() => reset(), 2000);  // Reset the board after 2 seconds
+        setTimeout(() => reset(), 1000);  // Reset the board after 1 seconds
     };
 
     return (
